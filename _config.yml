@@ -1,29 +1,41 @@
-name: jltest
-favicon: null
-layout_spectrum: 0.08062421530485153
-typography_spectrum: 0.6389027570839971
 title: This is a test site
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.374552
+  brandStrength: 0
+  lightness: 0.5949821
   brandColors:
     - '#67a4e7'
     - '#6f793c'
     - '#18241a'
     - '#bec6bb'
     - '#fffefa'
-  brandStrength: 0
-  lightness: 1
-  saturation: 0
-  rhythmicContrast: 0.75
-purpose: []
+  rhythmicContrast: 0.4229391
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: jltest
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.1469534
+layout_spectrum: 0.6523297
